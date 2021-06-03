@@ -13,6 +13,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
         android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -20,6 +23,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:clickable="true"
+            android:outlineAmbientShadowColor="@color/purple_200"
             android:contentDescription="@{card.name}"
             android:onClick="@{clickListener}"
             app:layout_constraintBottom_toBottomOf="parent"
